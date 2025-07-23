@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from marshmallow import Schema, fields, validate
@@ -460,5 +459,4 @@ def create_app():
 
 if __name__ == '__main__':
     app = create_app()
->>>>>>> d01aaeae962863133ffefef0b2f6ff4bd8ba7d2e
     app.run(host='0.0.0.0', port=5000)
